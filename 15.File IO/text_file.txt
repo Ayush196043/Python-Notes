@@ -1,0 +1,30 @@
+# File Handeling..
+
+
+Here is the information about file handling in Python:
+
+Python provides built-in functions to handle files, allowing you to perform operations such as creating, opening, reading, writing, and closing files. These operations are essential for managing data flow between your program and the file system.
+
+Key Concepts:
+
+Opening a File:
+
+The open() function is used to open a file. It takes two arguments: the file name and the mode. The mode specifies the operation you want to perform on the file.
+
+File Modes:
+
+'r': Read mode (default). Opens a file for reading.
+'w': Write mode. Opens a file for writing. Creates the file if it doesn't exist, or overwrites it if it does.
+'a': Append mode. Opens a file for appending. Creates the file if it doesn't exist.
+'x': Exclusive creation mode. Creates a new file but fails if the file already exists.
+'b': Binary mode. Used for binary files (e.g., images).
+'t': Text mode (default). Used for text files.
+'+': Update mode (allows both reading and writing).
+
+Closing a File:
+
+After you're done with a file, it's important to close it using the close() method. This releases the resources used by the file. Python also automatically closes files when using the with statement.
+Reading from a File:
+You can read the contents of a file using methods like read(), readline(), or readlines().
+Writing to a File:
+You can write data to a file using the write() method
